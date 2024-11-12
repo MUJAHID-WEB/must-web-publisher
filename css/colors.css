@@ -1,0 +1,17 @@
+:root {
+    /* Color Variables */
+    --primary-color: #fff;
+    --secondary-color: #ECEFF1;
+    --background-color: #252525;
+
+    --text-color: #F58220;
+    --heading-color: #2C2C2C;
+    --sub-head-color: #BBBBBB;
+    --list-color: #979797;
+    --text-para-color: #7D7D7D;
+
+
+    /* Additional Colors */
+    --accent-color: #00427A;
+    --neutral-color: #95a5a6;
+}

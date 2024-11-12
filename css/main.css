@@ -1,0 +1,60 @@
+@import url('variables.css');
+@import url('colors.css');
+@import url('fonts.css');
+
+/* Import home CSS */
+@import url('layout/header.css');
+@import url('layout/footer.css');
+
+/* Import home CSS */
+@import url('home/sec1.css');
+@import url('home/sec2.css');
+@import url('home/sec3.css');
+@import url('home/sec4.css');
+@import url('home/sec5.css');
+@import url('home/sec6.css');
+@import url('home/sec7.css');
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, a{
+    margin: 0;
+}
+
+.containar{
+    max-width: 1536px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+
+
+/* Sections */
+section {
+    padding: 5rem;
+    text-align: center;
+}
+
+section:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+
+section:nth-child(even) {
+    background-color: #c8c8c8;
+}

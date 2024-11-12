@@ -1,0 +1,29 @@
+.hero{
+    background: url(../../images/hero_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 256px 0;
+    position: relative;
+}
+
+.hero_content{
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.hero_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    color: var(--primary-color);
+}
+
+.hero_left h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 50px;
+}
+

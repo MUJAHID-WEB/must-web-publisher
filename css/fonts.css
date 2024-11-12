@@ -1,0 +1,56 @@
+:root {
+    /* Font Weights */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+
+    /* Font Sizes */
+    --font-size-xl: 48px;
+    --font-size-l: 32px;
+    --font-size-sm: 20px;
+
+    /* Line Heights */
+    --line-height-xl: 50px;
+    --line-height-l: 47px;
+    --line-height-sm: 30px;
+}
+
+/* Utility Classes for .text-xl with Different Font Weights */
+.text-xl-bold {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-xl);
+}
+
+.text-xl-semi-bold {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semi-bold);
+    line-height: var(--line-height-xl);
+}
+
+.text-xl-medium {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-xl);
+}
+
+.text-xl-regular {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-xl);
+}
+
+.text-l-bold {
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-l);
+}
+
+
+.text-sm-regular {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-sm);
+}
+
