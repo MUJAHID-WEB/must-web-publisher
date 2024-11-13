@@ -1,0 +1,24 @@
+.convenience{
+   margin-top: 100px; 
+}
+
+.convenience h1{
+    font-size: 40px;
+    
+
+}
+.convenience h1:last-child{
+    letter-spacing: -3px;
+}
+
+.convenience h1 span{
+    color:  #F58220;
+    ;
+}
+
+.gallery{
+    background-color: red;
+    width: 50%;
+    height: 100px;
+    margin-top: 1vw;
+}
