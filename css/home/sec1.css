@@ -11,19 +11,33 @@
     display: flex;
     justify-content: flex-start;
     gap: 32px;
+    
 }
 
 .hero_left{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 25px;
+    gap: 35px;
     color: var(--primary-color);
+    margin-left: 10vw;
 }
+
 
 .hero_left h1{
-    font-size: 70px;
+    font-size: 160px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 50px;    
 }
 
+.hero_left h3{
+    margin-top: 8vh;
+    font-size: 32px;
+    line-height: 47.36px;
+}
+
+.hero_left p{
+    font-size: 20px;
+    margin-top: -3vh;
+
+}

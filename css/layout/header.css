@@ -30,6 +30,7 @@ header {
 .header_left{
     display: flex;
     gap: 80px;
+    margin-top: 2.5vw;
 }
 
 .logo img {
@@ -46,7 +47,7 @@ header {
 
 .menu ul {
     display: flex;
-    gap: 30px;
+    gap: 5vw;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -55,7 +56,8 @@ header {
 .menu ul li a {
     text-decoration: none;
     color: var(--primary-color);
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 35px;
     transition: color 0.3s ease;
 }
 
@@ -66,4 +68,5 @@ header {
 .language img {
     width: 24px;
     height: auto;
+    margin-top: 2.5vw;
 }
