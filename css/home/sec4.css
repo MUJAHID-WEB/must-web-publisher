@@ -1,0 +1,41 @@
+.convenience{
+    max-width: 1536px;
+    margin: 0 auto;
+    padding: 100px 12px;
+}
+.center-card{
+    width: 498px;
+    padding:36px 0px  60px 0px;
+
+}
+
+.center-card h1{
+    padding: 20px 0px 20px 0px;
+    color: #7D7D7D;
+}
+
+.center-card img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.bar-body{
+    width: 100%;
+    background-color: #7D7D7D ;
+    margin-top: 40px;
+
+}
+
+.bar-color{
+    height: 3px;
+    width: 60%;
+    background-color: #7D7D7D;
+}
+
+
+
+.center-card:hover {
+    transform: translateY(-10px);
+}
+

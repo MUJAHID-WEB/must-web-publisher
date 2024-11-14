@@ -5,7 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
+    height: 1250px;
     opacity: 80%;
 }
 
@@ -14,8 +14,6 @@
     display: flex;
     justify-content: flex-start;
     gap: 32px;
-    
-    
 }
 
 .banner_left{
@@ -25,7 +23,7 @@
     gap: 35px;
     color: var(--primary-color);
     margin-left: 6.5vw;
-    margin-top: 200px;
+    margin-top: 17vw;
 }
 
 
