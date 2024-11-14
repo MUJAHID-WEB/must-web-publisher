@@ -1,24 +1,73 @@
 .convenience{
-   margin-top: 100px; 
+   margin:150px;
+   padding: 150px 0px 0px 0px;
 }
 
 .convenience h1{
     font-size: 40px;
-    
-
 }
 .convenience h1:last-child{
     letter-spacing: -3px;
 }
 
 .convenience h1 span{
-    color:  #F58220;
-    ;
+    color:  #F58220;;
 }
 
 .gallery{
-    background-color: red;
-    width: 50%;
-    height: 100px;
+    /* width: 50%;
+    height: 100px; */
     margin-top: 1vw;
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    width: 498px;
+    padding:36px 0px  60px 0px;
+
+}
+
+.card h1{
+    padding: 20px 0px 20px 0px;
+    color: #7D7D7D;
+}
+
+.card img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.bar-body{
+    width: 100%;
+    background-color: #7D7D7D ;
+    margin-top: 40px;
+
+}
+
+.bar-color{
+    height: 3px;
+    width: 60%;
+    background-color: #7D7D7D;
+}
+
+.card:first-child{
+    margin-top: 125px;
+}
+
+.card:nth-child(2){
+    margin-top: 60px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card:hover h1 {
+    color: #F58220;
+}
+
+.card:hover .bar-color {
+    background-color: #F58220;
 }
