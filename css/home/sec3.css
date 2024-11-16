@@ -1,5 +1,4 @@
 
-
 #section3{
     background-image: url("../../images/section3-bg.jpeg") ;
     background-position: center;
@@ -15,6 +14,7 @@
     justify-content: flex-start;
     gap: 32px;
 }
+
 
 .banner_left{
     display: flex;

@@ -1,0 +1,30 @@
+
+#section7{
+    background-image: url("../../images/section7-bg.jpeg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1250px;
+    opacity: 80%;
+}
+
+
+.banner_content{
+    display: flex;
+    justify-content: center;
+    margin-top: 23vw;
+}
+
+
+.banner_center{
+    color: var(--primary-color);
+
+}
+
+
+.banner_center h1{
+    font-size: 134px;
+    font-weight: 700;
+    line-height: 150px;
+    text-align: center;
+}

@@ -8,12 +8,12 @@
     /* Font Sizes */
     --font-size-xl: 48px;
     --font-size-l: 32px;
-    --font-size-sm: 20px;
+    --font-size-sm: 18px;
 
     /* Line Heights */
     --line-height-xl: 50px;
     --line-height-l: 47px;
-    --line-height-sm: 30px;
+    --line-height-sm: 21px;
 }
 
 /* Utility Classes for .text-xl with Different Font Weights */
