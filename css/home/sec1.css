@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 256px 0;
-    position: relative;
 }
 
 .hero_content{
@@ -18,26 +17,24 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 35px;
     color: var(--primary-color);
-    margin-left: 10vw;
 }
 
 
 .hero_left h1{
     font-size: 160px;
     font-weight: 700;
-    line-height: 50px;    
+    line-height: 70px;    
 }
 
 .hero_left h3{
-    margin-top: 8vh;
+    margin-top: 80px;
     font-size: 32px;
     line-height: 47.36px;
 }
 
 .hero_left p{
     font-size: 20px;
-    margin-top: -3vh;
+    margin-top: 18px;
 
 }

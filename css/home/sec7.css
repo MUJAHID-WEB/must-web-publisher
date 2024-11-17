@@ -9,20 +9,21 @@
 }
 
 
-.banner_content{
+.asset_content{
     display: flex;
-    justify-content: center;
-    margin-top: 23vw;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
 }
 
 
-.banner_center{
+.asset_center{
     color: var(--primary-color);
-
+    text-align: center;
 }
 
 
-.banner_center h1{
+.asset_center h1{
     font-size: 134px;
     font-weight: 700;
     line-height: 150px;

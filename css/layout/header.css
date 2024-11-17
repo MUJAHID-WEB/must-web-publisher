@@ -1,39 +1,26 @@
-/* header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px 0 !important;
-    gap: 20px;
-    background-color: transparent;
-    position: absolute;
-    color: var(--primary-color);
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-} */
+
 header {
-    position: absolute;
-    top: 2%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+   padding-top: 25px;
+   padding-bottom: 25px;
+ 
+}
+.header_content{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
     width: 100%;
-    padding: 24px 0 !important;
     color: var(--primary-color);
-    z-index: 1;
 }
 
 .header_left{
     display: flex;
     gap: 80px;
-    margin-top: 2.5vw;
 }
 
 .logo img {
+    width: 300px;
+
     height: auto;
     max-width: 100%;
 }
@@ -68,5 +55,4 @@ header {
 .language img {
     width: 24px;
     height: auto;
-    margin-top: 2.5vw;
 }

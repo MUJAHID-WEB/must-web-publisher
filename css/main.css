@@ -45,16 +45,3 @@ h1, h2, h3, h4, h5, h6, a{
 
 
 
-/* Sections */
-section {
-    padding: 5rem;
-    text-align: center;
-}
-
-section:nth-child(odd) {
-    background-color: #e0e0e0;
-}
-
-section:nth-child(even) {
-    background-color: #c8c8c8;
-}

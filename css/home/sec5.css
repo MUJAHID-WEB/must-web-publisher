@@ -1,10 +1,15 @@
+#section5{
+    background-color: #ECEFF1;
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
 .event{
-    padding:100px 195px;
+    
     display: grid;
     grid-template-columns: 6fr 6fr;
     grid-template-rows: 6fr;
     grid-gap: 5em;
-    
 }
 
 
