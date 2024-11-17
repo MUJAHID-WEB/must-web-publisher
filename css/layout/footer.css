@@ -48,10 +48,29 @@ footer {
 
 
 .footer_right{
-    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: end;
 }
 
 .right_top{
     display: flex;
     gap: 32px;
+}
+
+.right_top button {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 50px !important;
+    padding: 10px;
+    color: var(--primary-color);
+}
+
+.footer_right button {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 10px;
+    color: var(--primary-color);
 }
