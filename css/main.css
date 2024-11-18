@@ -15,6 +15,12 @@
 @import url('home/sec6.css');
 @import url('home/sec7.css');
 
+/* Import center CSS */
+@import url('center/center_sec1.css');
+@import url('center/center_sec2.css');
+@import url('center/center_sec3.css');
+@import url('center/center_sec4.css');
+
 /* General Styles */
 * {
     margin: 0;

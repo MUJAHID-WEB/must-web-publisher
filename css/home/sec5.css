@@ -5,11 +5,11 @@
 }
 
 .event{
-    
-    display: grid;
-    grid-template-columns: 6fr 6fr;
-    grid-template-rows: 6fr;
-    grid-gap: 5em;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -23,7 +23,7 @@
 .title{
     display: flex;
     justify-content: space-between;
-    gap:200px;
+    gap: 200px;
     align-items: center;
     margin-bottom: 2rem;
 }
@@ -31,6 +31,7 @@
 .title i
 {
     font-size: 40px;
+    font-weight: 700;
     color: #2C2C2C;
 
 }

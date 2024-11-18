@@ -1,0 +1,34 @@
+.cen_hero{
+    background: url(../../images/center/center_hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 350px 0 256px;
+}
+
+.cen_hero_content{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    
+}
+
+.cen_hero_left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+
+.cen_hero_left h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 70px;    
+}
+
+.cen_hero_left h1 span{
+    font-weight: 400;
+}
+
