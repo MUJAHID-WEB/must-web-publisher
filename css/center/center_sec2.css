@@ -1,0 +1,94 @@
+#cen_sec2{
+    background-color: #fff;
+    color: #000;
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mac{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mac_head{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mac_head h3{
+    color: #00427A;
+}
+
+.mac_head p{
+    color: #575757;
+    text-align: center;
+}
+
+.mac_info{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.mac_list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mac_list h5{
+    color: #F58220;
+}
+
+.mac_list h3{
+    color: #00427A;
+}
+
+.mac_down{
+    background: url(../../images/center/mac_center1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mac_down h3{
+    color: #00427A;
+}
+
+.mac_count{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.mac_count span{
+    background-color: #00427A4D;
+    height: 10px;
+    width: 30px;
+}
+
+.mac_count .active{
+    background-color: #00427A;
+    height: 10px;
+    width: 30px;
+}
