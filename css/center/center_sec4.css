@@ -1,18 +1,21 @@
 #cen_sec4{
-    padding: 30px 0;
+    padding: 180px 0 60px;
     background-color: #fff;
-    color: #000;
+    color: #2C2C2C;
 }
 
 .core{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 120px;
     
 }
 
 .core h5{
-
+    color: #2C2C2C;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 45px;
 }
 
 .core_left,
@@ -31,4 +34,59 @@
 .core_right{
     align-self: flex-end;
     text-align: left;
+}
+
+.core_right h3,
+.core_left h3{
+    color: #2C2C2C;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.core_right p,
+.core_left p{
+    color: #2C2C2C;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.core_down{
+    /* background: url(../../images/center/mac_center1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 300px 0 60px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.core_down h3{
+    color: #00427A;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.core_count{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.core_count span{
+    background-color: #00427A4D;
+    height: 3px;
+    width: 32px;
+}
+
+.core_count .active{
+    background-color: #00427A;
+    height: 3px;
+    width: 32px;
 }
