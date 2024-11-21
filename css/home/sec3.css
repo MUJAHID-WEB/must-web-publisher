@@ -1,19 +1,35 @@
-
-#section3{
-    background-image: url("../../images/section3-bg.jpeg") ;
+#section3 {
+    position: relative; 
+    background-image: url("../../images/section3-bg.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1250px;
-    opacity: 80%;
+    padding-top: 280px;
+    padding-bottom: 80px;
 }
 
+#section3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.2; 
+    pointer-events: none; 
+    z-index: 1; 
+}
 
-.banner_content{
+.banner_content {
+    position: relative; 
     display: flex;
-    justify-content: flex-start;
-    gap: 32px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 77px;
+    z-index: 2; 
 }
+
 
 
 .banner_left{
@@ -22,22 +38,25 @@
     align-items: flex-start;
     gap: 35px;
     color: var(--primary-color);
-    margin-top: 17vw;
 }
 
 
-.banner_left h1{
+.banner_left h2{
     font-size: 80px;
     font-weight: 700;
-    line-height: 10px;
+    line-height: 80px;
 }
 
+.banner_left h2 span img{
+    width: 98px;
+    height: 88px;
+}
 
 .banner-bar-body{
     width: 100%;
     background-color: #7D7D7D ;
     margin-top: 14vw;
-
+    max-width: 1043px;
 }
 
 .banner-bar-color{
@@ -46,16 +65,11 @@
     background-color: #fff;
 }
 
-.banner_left h3{
-    margin-top: 8vh;
-    font-size: 32px;
-    line-height: 47.36px;
-}
 
 .banner_left p{
     font-size: 20px;
-    margin-top: -1vh;
-    width: 700px;
+    font-weight: 700;
+    max-width: 1043px;
 
 }
 
@@ -68,4 +82,64 @@
     color:#fff
 }
 
+.banner_count{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+}
 
+.banner_count span{
+    background-color: #FFFFFF66;
+    height: 3px;
+    width: 32px;
+}
+
+.banner_count .active{
+    background-color: #FFFFFF;
+    height: 3px;
+    width: 32px;
+}
+
+@media (max-width: 360px){
+
+    #section3{
+        padding-top: 80px;
+        padding-bottom: 24px;
+    }
+    .banner_left{
+        gap: 35px;
+        margin-top: 80px;
+    }
+
+    .banner_left h2{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .banner_left h2 span img{
+        width: 32px;
+        height: 29px;
+    }
+
+    .banner_left p{
+        font-size: 12px;
+        line-height: 21px;
+        width: 100%;
+    }
+
+    .banner-bar-body{
+        margin-top: 263px;
+    }
+
+    .banner_left button {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .banner_count .active,
+    .banner_count span{
+        width: 20px;
+    }
+
+}

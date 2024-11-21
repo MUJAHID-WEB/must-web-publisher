@@ -38,3 +38,35 @@
     margin-top: 18px;
 
 }
+
+@media (max-width:360px) {
+    .hero{
+        background: url(../../images/hero_bg_mobile.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 350px 0 87px;
+    }
+
+    .hero_left h1{
+        font-size: 55px;
+        line-height: 30px;    
+    }
+
+    .hero_left h1 span img{
+        width: 62px;
+        height: 49px;   
+    }
+    
+    .hero_left h3{
+        margin-top: 24px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .hero_left p{
+        font-size: 12px;
+        margin-top: 5px;
+    
+    }
+}

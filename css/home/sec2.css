@@ -6,20 +6,24 @@
 .convenience{
 }
 
-.convenience h1{
+.card h2,
+.convenience h1 span,
+.convenience h2{
+    color: #fff;
     font-size: 40px;
+    font-weight: 700px;
 }
-.convenience h1:last-child{
-    letter-spacing: -3px;
+.convenience h3{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400px;
 }
 
-.convenience h1 span{
+.convenience h3 span{
     color:  #F58220;
 }
 
 .gallery{
-    /* width: 50%;
-    height: 100px; */
     margin-top: 1vw;
     display: flex;
     gap: 20px;
@@ -31,9 +35,15 @@
 
 }
 
-.card h1{
+.card h2{
     padding: 20px 0px 20px 0px;
+    color: #fff;
+}
+
+.card p{
     color: #7D7D7D;
+    font-size: 20px;
+    font-weight: 400px;
 }
 
 .card img{
@@ -67,10 +77,52 @@
     transform: translateY(-10px);
 }
 
-.card:hover h1 {
+.card:hover h2 {
     color: #F58220;
 }
 
 .card:hover .bar-color {
     background-color: #F58220;
+}
+
+
+@media (max-width: 360px){
+    #section2{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .card h2,
+    .convenience h1 span,
+    .convenience h2{
+        font-size: 20px;
+    }
+
+    .convenience h3{
+        font-size: 20px;
+    }
+
+    .convenience h3 span{
+        display: block;
+    }
+
+    .gallery{
+        margin-top: 1vw;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card{
+        width: 328px;
+        padding: 40px 0 0;
+    }
+    .card:nth-child(2),
+    .card:first-child{
+        margin-top: 0;
+    }
+
+    .card p{
+        font-size: 16px;
+    }
+
 }

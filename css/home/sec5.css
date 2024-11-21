@@ -15,28 +15,29 @@
 
 
 .section-one img{
-    width: 738px;
-    height: 444px;
+    max-width: 738px;
+    max-height: 444px;
     margin-bottom: .6rem;
 }
 
 .title{
     display: flex;
     justify-content: space-between;
-    gap: 200px;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 48px;
 }
-.title h1,
+.title h2,
 .title i
 {
     font-size: 40px;
+    letter-spacing: -3px;
     font-weight: 700;
     color: #2C2C2C;
 
 }
 .section-one h3{
     font-size: 40px;
+    letter-spacing: -2px;
     color: #2C2C2C;
     align-items: start;
 
@@ -49,6 +50,10 @@
     flex-direction: column;
     color: #979797;
 
+}
+
+.details:hover{
+    color: #00427A;
 }
 
 .details li{
@@ -65,12 +70,10 @@
     margin-top: 1rem;
 }
 
-.section-two .details{
-    color: #00427A;
-}
 
-.details h2{
+.details h3{
     font-size: 28px;
+    font-weight: 700;
 }
 
 .section-two p:first-child{
@@ -85,7 +88,46 @@
 }
 
 
+@media (max-width:360px){
+    #section5{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
 
+    .title {
+       margin-bottom: 24px;
+    }
+    .title h2,
+    .title i
+    {
+        font-size: 24px;
+    }
+    .details h3{
+        font-size: 18px;
+    }
+
+    .section-one img {
+        max-width: 100%;
+    }
+
+    .details li{
+        font-size: 14px;
+    
+    }
+    .details ul{
+        padding-left: 1rem;
+    }
+    
+    .section-one .details p{
+        font-size: 12px;
+        margin-top: 1rem;
+    }
+
+    .section-two p{
+        font-size: 14px;
+        margin-top: 1rem;
+    }
+}
 
 
 

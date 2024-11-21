@@ -29,3 +29,18 @@
     line-height: 150px;
     text-align: center;
 }
+
+@media (max-width:360px){
+    #section7{
+        height: 640px;
+    }
+
+    .asset_center h1{
+        font-size: 48px;
+        line-height: 72px;
+    }
+    .asset_center h1 span img{
+        width: 192px;
+        height: 41px;
+    }
+}
