@@ -4,6 +4,7 @@ header {
     padding-bottom: 25px;
     position: absolute;
     width: 100%;
+    z-index: 2;
 }
 .header_content{
     display: flex;
@@ -21,7 +22,6 @@ header {
 
 .logo img {
     width: 300px;
-
     height: auto;
     max-width: 100%;
 }
@@ -29,7 +29,7 @@ header {
 .menu{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 30px;
 }
 
@@ -56,4 +56,26 @@ header {
 .language img {
     width: 24px;
     height: auto;
+}
+
+.burger{
+    display: none;
+}
+
+@media (max-width:768px){
+
+    .logo img {
+        width: 162px;
+    }
+
+    .language,
+    .menu{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+    }
+
+
 }

@@ -89,7 +89,7 @@ footer {
     color: var(--primary-color);
 }
 
-@media(max-width:360px){
+@media(max-width:768px){
     .footer_content{
         padding-top: 20px !important;
         padding-bottom: 20px !important;

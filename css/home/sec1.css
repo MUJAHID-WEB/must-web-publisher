@@ -4,13 +4,26 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 350px 0 256px;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.2; 
+    pointer-events: none; 
+    z-index: 1; 
 }
 
 .hero_content{
     display: flex;
     justify-content: flex-start;
-    gap: 32px;
-    
+    gap: 32px;   
 }
 
 .hero_left{
@@ -18,6 +31,7 @@
     flex-direction: column;
     align-items: flex-start;
     color: var(--primary-color);
+    z-index: 2;
 }
 
 
@@ -39,7 +53,7 @@
 
 }
 
-@media (max-width:360px) {
+@media (max-width:768px) {
     .hero{
         background: url(../../images/hero_bg_mobile.png);
         background-position: center;

@@ -75,7 +75,7 @@
     color: var(--sub-head-color);
 }
 
-@media (max-width: 360px){
+@media (max-width: 768px){
     #section6{
         padding-top: 80px;
         padding-bottom: 80px;

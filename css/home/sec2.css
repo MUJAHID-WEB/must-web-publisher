@@ -86,7 +86,7 @@
 }
 
 
-@media (max-width: 360px){
+@media (max-width: 768px){
     #section2{
         padding-top: 80px;
         padding-bottom: 80px;
@@ -113,7 +113,7 @@
     }
 
     .card{
-        width: 328px;
+        width: 100%;
         padding: 40px 0 0;
     }
     .card:nth-child(2),
