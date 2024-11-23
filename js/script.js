@@ -37,11 +37,13 @@ setInterval(() => slideCarousel("next"), 3000);
 window.addEventListener("resize", adjustForMobile);
 adjustForMobile(); 
 
+
+
 if (window.innerWidth <= 768) {
     index = 1; 
     updateMiddleClass();
     track.style.transform = 'translateX(-5%)'; 
-  }
+}
 
 
 

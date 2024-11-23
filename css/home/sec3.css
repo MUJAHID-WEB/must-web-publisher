@@ -24,7 +24,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 280px;
-    padding-bottom: 80px;
+    padding-bottom: 160px;
     flex: 0 0 100%; 
     width: 100%;
 }
@@ -70,22 +70,11 @@
 .banner_content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: self-start;
     justify-content: center;
     height: 100%;
    
 }
-
-
-/* .banner_content {
-    position: relative; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 77px;
-    z-index: 2; 
-} */
-
 
 
 .banner_left{
@@ -141,7 +130,7 @@
 
 .banner_count{
     position: absolute;
-    bottom: 35px;
+    bottom: 80px;
     left: 43%;
     display: flex;
     gap: 8px;
@@ -162,9 +151,12 @@
 
 @media (max-width: 768px){
 
-    .slider-slide{
+    .slider-slide4,
+    .slider-slide3,
+    .slider-slide2,
+    .slider-slide1{
         padding-top: 80px;
-        padding-bottom: 24px;
+        padding-bottom: 48px;
     }
     .banner_left{
         gap: 35px;
@@ -194,6 +186,11 @@
     .banner_left button {
         padding: 8px 16px;
         font-size: 12px;
+    }
+
+    .banner_count{
+
+        bottom: 24px;
     }
 
     .banner_count .active,

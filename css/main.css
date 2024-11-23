@@ -29,7 +29,7 @@
 }
 
 body {
-    font-family: var(--font-family);
+    font-family: 'Spohahansans', sans-serif;
     color: var(--primary-color);
     background-color: var(--background-color);
     line-height: 1.6;
