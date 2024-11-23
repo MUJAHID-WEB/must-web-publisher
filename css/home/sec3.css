@@ -1,14 +1,59 @@
-#section3 {
+#section3{
+    position: relative;
+}
+
+.slider-container1 {
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+.slider-container1 > div {
+    flex: 0 0 100%; 
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slider-slide4,
+.slider-slide3,
+.slider-slide2,
+.slider-slide1 {
     position: relative; 
-    background-image: url("../../images/section3-bg.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 280px;
     padding-bottom: 80px;
+    flex: 0 0 100%; 
+    width: 100%;
 }
 
-#section3::before {
+
+.slider-slide1 {
+    background-image: url("../../images/section3-bg1.jpeg");
+
+}
+
+.slider-slide2 {
+    background-image: url("../../images/section3-bg2.jpeg");
+
+}
+
+.slider-slide3 {
+    background-image: url("../../images/section3-bg3.jpeg");
+
+}
+
+.slider-slide4 {
+    background-image: url("../../images/section3-bg4.jpeg");
+
+}
+
+.slider-slide4::before,
+.slider-slide3::before,
+.slider-slide2::before,
+.slider-slide1::before {
     content: "";
     position: absolute;
     top: 0;
@@ -16,19 +61,30 @@
     width: 100%;
     height: 100%;
     background-color: black;
-    opacity: 0.2; 
+    opacity: 0.3; 
     pointer-events: none; 
     z-index: 1; 
 }
 
+
 .banner_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   
+}
+
+
+/* .banner_content {
     position: relative; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 77px;
     z-index: 2; 
-}
+} */
 
 
 
@@ -38,6 +94,7 @@
     align-items: flex-start;
     gap: 35px;
     color: var(--primary-color);
+    z-index: 2;
 }
 
 
@@ -83,10 +140,12 @@
 }
 
 .banner_count{
+    position: absolute;
+    bottom: 35px;
+    left: 43%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     gap: 8px;
+    transform: translateX(-50%);
 }
 
 .banner_count span{
@@ -103,7 +162,7 @@
 
 @media (max-width: 768px){
 
-    #section3{
+    .slider-slide{
         padding-top: 80px;
         padding-bottom: 24px;
     }
